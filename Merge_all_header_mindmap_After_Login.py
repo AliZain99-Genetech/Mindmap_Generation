@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 
 def merge_mindmaps(base_folder="."):
     mindmap_folder = os.path.join(base_folder, "mindmaps_After_Login")
-    output_path = os.path.join(base_folder, "Full_Website_Structure_After_Login.mm")
+    output_path = os.path.join(base_folder, "Merged_Website_Structure.mm")
 
     # --- Find the master mindmap file dynamically ---
     master_path = None

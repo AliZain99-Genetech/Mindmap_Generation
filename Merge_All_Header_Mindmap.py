@@ -16,7 +16,7 @@ def merge_mindmaps(base_folder):
 
     mindmap_folder = os.path.join(base_folder, "mindmaps")
     master_path = os.path.join(mindmap_folder, "home.mm")
-    output_path = os.path.join(base_folder, "Full_Website_Structure.mm")
+    output_path = os.path.join(base_folder, "Merged_Website_Structure.mm")
 
     # --- Validate paths ---
     if not os.path.exists(mindmap_folder):

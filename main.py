@@ -9,6 +9,7 @@ from Merge_All_Header_Mindmap import merge_mindmaps
 from Validation_Mindmap import validation
 from Screenshot_node import Screenshot_Node
 from zip import zip_folder
+from button_description import process_mindmap
 import json
 import asyncio
 import os
@@ -154,8 +155,7 @@ def extract():
 
                     # 📝 Add button descriptions
                     logging.info("🧾 Adding button descriptions to final MindMap...")
-                    from button_description import process_mindmap
-
+                    
                     INPUT_MM = os.path.join(domain_folder, "Merged_Website_Structure.mm")
                     OUTPUT_MM = os.path.join(domain_folder, "Full_Website_Structure_updated_with_descriptions.mm")
 
@@ -180,6 +180,14 @@ def extract():
                 else:
                     logging.info("⚠️ No username/password provided — skipping login section.")
                     # --- Zip the folder if no login is provided ---
+                    INPUT_MM = os.path.join(domain_folder, "Merged_Website_Structure.mm")
+                    OUTPUT_MM = os.path.join(domain_folder, "Full_Website_Structure_updated_with_descriptions.mm")
+
+                    if not os.path.exists(INPUT_MM):
+                        logging.info(f"❌ {INPUT_MM} file not found.")
+                    else:
+                        process_mindmap(INPUT_MM, OUTPUT_MM)
+                        logging.info("✅ Button descriptions added successfully.")
                     try:
                         output_zip_file = f"{folder_name}.zip"
                         zip_folder(folder_name, output_zip_file)

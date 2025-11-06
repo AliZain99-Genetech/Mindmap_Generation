@@ -3,7 +3,7 @@ def generating_full_mindmapp(base_folder="."):
     import os
 
     # Input files
-    main_file = os.path.join(base_folder, "Full_Website_Structure_with_screenshots.mm")
+    main_file = os.path.join(base_folder, "Full_Website_Structure_updated.mm")
     login_file = os.path.join(base_folder, "Full_Website_Structure_After_Login_updated_with_Screenshot.mm")
     output_file = os.path.join(base_folder, "Merged_Website_Structure.mm")
 
