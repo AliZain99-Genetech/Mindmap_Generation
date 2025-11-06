@@ -10,7 +10,9 @@ load_dotenv()
 def validation(base_folder="."):
     MM_FILE = os.path.join(base_folder, "Full_Website_Structure.mm")
     OUTPUT_FILE = os.path.join(base_folder, "Full_Website_Structure_updated.mm")
-
+    header_file = os.path.join(base_folder,"header_links.json")
+    print(base_folder)
+    print(header_file)
     # Load OpenAI client
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
@@ -20,6 +22,10 @@ def validation(base_folder="."):
     # Load files
     with open(MM_FILE, "r", encoding="utf-8") as f:
         mm_content = f.read()
+    with open(header_file, "r") as f: # C:\Users\izhar.nabi\Desktop\vscod\MindMap\mindmap_web_app\340bpriceguide.net\header_links.json
+        data = json.load(f)
+    
+    texts = [item["text"] for item in data]
 
     user_prompt = """
     Generate a valid FreeMind (.mm) XML file that represents a complete website structure.
@@ -35,7 +41,7 @@ def validation(base_folder="."):
     5. Each page node must include all its UI elements (buttons, forms, links, and content) as nested subnodes.
     6. If any page contains subpages, represent them as child nodes under that page.
     7. Maintain a clear hierarchical structure that accurately reflects parent-child relationships between pages and their components.
-    8. Login and Signup pages should be subnodes of the Home Page only.
+    8. If a link’s {texts} contains “login”, “log in”, “sign up”, or “signup” (case-insensitive), then include it as a subnode under the Home Page
     9. Ensure all nodes are properly nested and the XML is valid.
     10. Use hyperlinks (LINK attribute) for nodes that represent pages, linking to their respective URLs.
 
@@ -87,7 +93,7 @@ def validation(base_folder="."):
         # 🧹 CLEAN: Remove markdown or extra text before XML
     start_index = mindmap_content.find("<map")
     if start_index == -1:
-        raise ValueError("Gemini output does not contain valid <map> XML structure.")
+        raise ValueError("OpenAI output does not contain valid <map> XML structure.")
 
     mindmap_content = mindmap_content[start_index:].strip()
     # 🧹 Remove closing ``` if present

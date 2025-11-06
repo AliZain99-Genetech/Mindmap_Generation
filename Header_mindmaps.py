@@ -2,18 +2,17 @@ import os
 import json
 import asyncio
 from playwright.async_api import async_playwright # pyright: ignore[reportMissingImports]
-import google.generativeai as genai # pyright: ignore[reportMissingImports]
+from openai import OpenAI # type: ignore
+from dotenv import load_dotenv # type: ignore
 
 # -------------------------------
 # CONFIGURATION
 # -------------------------------
-def configure_gemini():
-    """Configure Google Gemini API key."""
-    
-    GOOGLE_API_KEY = os.getenv("GEMINI_API_KEY")
-    if not GOOGLE_API_KEY:
-        raise ValueError("❌ GOOGLE_API_KEY not set. Please set it as an environment variable.")
-    genai.configure(api_key=GOOGLE_API_KEY)
+load_dotenv()
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    raise ValueError("❌ OPENAI_API_KEY not found in .env file")
+client = OpenAI(api_key=api_key)
 
 
 # -------------------------------
@@ -44,8 +43,6 @@ async def take_screenshot(url, name, screenshot_folder):
 # -------------------------------
 def generate_mindmap_from_screenshot(image_path, page_name, all_links,output_folder):
     """Generate a .mm mindmap file based on webpage screenshot and links."""
-    model = genai.GenerativeModel("gemini-2.0-flash")
-
     # Convert image to bytes
     with open(image_path, "rb") as f:
         image_data = f.read()
@@ -91,7 +88,7 @@ def generate_mindmap_from_screenshot(image_path, page_name, all_links,output_fol
     ### 🧱 RULES & STRUCTURE (for HOME PAGE)
     1. Root node must be the page title: "{page_name}".
     2. Must include **Header** and **Footer** as top-level subnodes.
-    3. All other pages (e.g., About, Services, Contact, Login, Signup, etc.) appear as subnodes under the Header.
+    3. All other pages (e.g., About, Services, Contact, etc.) appear as subnodes under the Header.
     4. **Header** and **Footer** should appear only once — under Home Page.
     5. Every visible section or navigation item should be a nested `<node>` element.
     6. Add LINK attributes to mindmap nodes to make them clickable hyperlinks (e.g., <node TEXT='Google' LINK='https://www.google.com'/>)
@@ -333,12 +330,25 @@ Now, using the provided screenshot and link context, generate the .mm XML mindma
         """
         
     try:
-        response = model.generate_content(
-            [prompt, {"mime_type": "image/png", "data": image_data}],
-            generation_config={"temperature": 0.0}
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/png;base64,{image_data.decode('utf-8')}"
+                            },
+                        },
+                    ],
+                }
+            ],
+            temperature=0.0,
         )
-
-        mindmap_content = response.text.strip()
+        mindmap_content = response.choices[0].message.content.strip()
         lines= mindmap_content.splitlines()
         if len(lines) > 2:
             lines = lines[1:-1]
@@ -370,10 +380,9 @@ async def generate_mindmaps_from_headers(
     Main pipeline:
     1. Reads all header JSONs.
     2. Takes screenshots.
-    3. Calls Gemini to create .mm mindmaps.
+    3. Calls OpenAI to create .mm mindmaps.
     """
 
-    configure_gemini()
 
     # --- Resolve all folder paths relative to base_folder ---
     if headers_folder is None:
@@ -443,7 +452,7 @@ async def generate_mindmaps_from_headers(
             print(f"⚠️ Screenshot failed for {page_name}")
             continue
 
-        # --- Generate mindmap using Gemini ---
+        # --- Generate mindmap using OpenAI ---
         output_path = generate_mindmap_from_screenshot(
             screenshot_path, page_name, all_links, output_folder
         )

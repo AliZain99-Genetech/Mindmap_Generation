@@ -1,6 +1,6 @@
 import json
 import asyncio
-from playwright.async_api import async_playwright
+from playwright.async_api import async_playwright # type: ignore
 import os
 from domain_extractor import extract_domain  # Make sure this exist
 

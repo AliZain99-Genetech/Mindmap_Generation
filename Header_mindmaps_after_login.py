@@ -1,15 +1,17 @@
 import os
 import json
 import asyncio
-import google.generativeai as genai # pyright: ignore[reportMissingImports]
+from openai import OpenAI # type: ignore
 from dotenv import load_dotenv # type: ignore
 
 # -------------------------------
 # CONFIGURATION
 # -------------------------------
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GEMINI_API_KEY")  # ⚠️ Replace with your own key
-genai.configure(api_key=GOOGLE_API_KEY)
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    raise ValueError("❌ OPENAI_API_KEY not found in .env file")
+client = OpenAI(api_key=api_key)
 
 
 # -------------------------------
@@ -17,8 +19,6 @@ genai.configure(api_key=GOOGLE_API_KEY)
 # -------------------------------
 def generate_mindmap_from_screenshot(image_path, page_name, all_links, mindmap_folder):
     """Generate a .mm mindmap file based on webpage screenshot and links."""
-    model = genai.GenerativeModel("gemini-2.0-flash")
-
     # Convert image to bytes
     with open(image_path, "rb") as f:
         image_data = f.read()
@@ -136,15 +136,28 @@ def generate_mindmap_from_screenshot(image_path, page_name, all_links, mindmap_f
             If the provided .mm file contains invalid XML special characters (like &, <, >, ", or '), replace them with their valid XML entity equivalents (&amp;, &lt;, &gt;, &quot;, &apos;) and return a well-formed FreeMind .mm XML file only
             """    
     try:
-        response = model.generate_content(
-            [prompt, {"mime_type": "image/png", "data": image_data}],
-            generation_config={"temperature": 0.3}
+        response = client.chat.completions.create(
+            model="gpt-4.1",
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/png;base64,{image_data.decode('utf-8')}"
+                            },
+                        },
+                    ],
+                }
+            ],
+            temperature=0.3,
         )
-
-        mindmap_content = response.text.strip()
+        mindmap_content = response.choices[0].message.content.strip()
         start_index = mindmap_content.find("<map")
         if start_index == -1:
-            raise ValueError("Gemini output does not contain valid <map> XML structure.")
+            raise ValueError("OpenAI output does not contain valid <map> XML structure.")
 
         mindmap_content = mindmap_content[start_index:].strip()
         # 🧹 Remove closing ``` if present

@@ -84,7 +84,7 @@ def validation_after_login(base_folder="."):
         # 🧹 CLEAN: Remove markdown or extra text before XML
     start_index = mindmap_content.find("<map")
     if start_index == -1:
-        raise ValueError("Gemini output does not contain valid <map> XML structure.")
+        raise ValueError("OpenAI output does not contain valid <map> XML structure.")
 
     mindmap_content = mindmap_content[start_index:].strip()
     # 🧹 Remove closing ``` if present
