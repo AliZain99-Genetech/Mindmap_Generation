@@ -1,6 +1,7 @@
 import os
 import json
 import asyncio
+import base64
 from openai import OpenAI # type: ignore
 from dotenv import load_dotenv # type: ignore
 
@@ -146,7 +147,7 @@ def generate_mindmap_from_screenshot(image_path, page_name, all_links, mindmap_f
                         {
                             "type": "image_url",
                             "image_url": {
-                                "url": f"data:image/png;base64,{image_data.decode('utf-8')}"
+                                "url": f"data:image/png;base64,{base64.b64encode(image_data).decode('utf-8')}"
                             },
                         },
                     ],

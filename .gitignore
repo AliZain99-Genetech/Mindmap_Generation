@@ -1,5 +1,7 @@
 .env
-340bpriceguide.net
 mind_map_webapp
+340bpriceguide.net
 __pycache__
 340bpriceguide.net.zip
+app.log
+auth_state.json

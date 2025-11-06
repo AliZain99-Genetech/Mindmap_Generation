@@ -1,6 +1,7 @@
 import os
 import json
 import asyncio
+import base64
 from playwright.async_api import async_playwright # pyright: ignore[reportMissingImports]
 from openai import OpenAI # type: ignore
 from dotenv import load_dotenv # type: ignore
@@ -331,7 +332,7 @@ Now, using the provided screenshot and link context, generate the .mm XML mindma
         
     try:
         response = client.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4.1",
             messages=[
                 {
                     "role": "user",
@@ -340,7 +341,7 @@ Now, using the provided screenshot and link context, generate the .mm XML mindma
                         {
                             "type": "image_url",
                             "image_url": {
-                                "url": f"data:image/png;base64,{image_data.decode('utf-8')}"
+                                "url": f"data:image/png;base64,{base64.b64encode(image_data).decode('utf-8')}"
                             },
                         },
                     ],
@@ -387,6 +388,7 @@ async def generate_mindmaps_from_headers(
     # --- Resolve all folder paths relative to base_folder ---
     if headers_folder is None:
         headers_folder = os.path.join(base_folder, "headers")
+        print(f"####################################### base folder {base_folder}#################################################")
     if extracted_headers_path is None:
         extracted_headers_path = os.path.join(base_folder, "header_links.json")
     if output_folder is None:

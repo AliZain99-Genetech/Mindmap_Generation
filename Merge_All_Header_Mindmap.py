@@ -19,10 +19,24 @@ def merge_mindmaps(base_folder):
     output_path = os.path.join(base_folder, "Full_Website_Structure.mm")
 
     # --- Validate paths ---
-    # if not os.path.exists(master_path):
-    #     raise FileNotFoundError(f"❌ Master mindmap not found: {master_path}")
     if not os.path.exists(mindmap_folder):
         raise FileNotFoundError(f"❌ Mindmap folder not found: {mindmap_folder}")
+
+    # --- Create master mindmap if it doesn't exist ---
+    if not os.path.exists(master_path):
+        print(f"⚠️ Master mindmap not found. Creating a new one at: {master_path}")
+        
+        # Create a default mindmap structure
+        root = ET.Element("map", version="freeplane 1.11.12")
+        base_node = ET.SubElement(root, "node", TEXT="home", ID="ID_HOME")
+        ET.SubElement(base_node, "node", TEXT="Header", ID="ID_HEADER")
+        
+        # Save the new master mindmap
+        tree = ET.ElementTree(root)
+        ET.indent(tree, space="  ")
+        tree.write(master_path, encoding="utf-8", xml_declaration=True)
+        
+        print("✅ New master mindmap created successfully.")
 
     print(f"🔍 Loading master mindmap: {master_path}")
     master_tree = ET.parse(master_path)
