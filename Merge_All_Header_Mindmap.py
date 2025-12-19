@@ -1,10 +1,36 @@
 import os
 import xml.etree.ElementTree as ET
 import copy
-
-
+from urllib.parse import urlparse
 import os
 import xml.etree.ElementTree as ET
+import re
+def normalize_node_text(text: str) -> str:
+    """Normalize text for consistent matching."""
+    text = text.lower()
+    text = text.replace("&", " ")  # explicitly remove '&'
+    text = re.sub(r'[^a-z0-9\s]', ' ', text)  # remove other symbols
+    text = re.sub(r'\s+', ' ', text)  # collapse multiple spaces
+    return text.strip()
+def convert_links_in_mm(input_mm_path, output_mm_path):
+    tree = ET.parse(input_mm_path)
+    root = tree.getroot()
+
+    for node in root.iter("node"):
+        text = node.get("TEXT")
+        if text and (text.startswith("http://") or text.startswith("https://")):
+            # Parse URL
+            parsed = urlparse(text)
+            path = parsed.path.rstrip("/")
+
+            # Get last part of URL
+            last_part = path.split("/")[-1] if path else parsed.netloc
+
+            # Update node attributes
+            node.set("TEXT", last_part)
+            node.set("LINK", text)
+
+    tree.write(output_mm_path, encoding="utf-8", xml_declaration=True)
 
 def merge_mindmaps(base_folder):
     """
@@ -79,7 +105,7 @@ def merge_mindmaps(base_folder):
             # --- Find matching header node ---
             target_node = None
             for node in header_node.findall(".//node"):
-                if node.attrib.get("TEXT", "").strip().lower() == page_name.lower():
+                if normalize_node_text(node.attrib.get("TEXT", "").strip().lower()) == normalize_node_text(page_name.lower()):
                     target_node = node
                     break
 
@@ -106,9 +132,10 @@ def merge_mindmaps(base_folder):
     # --- Save merged mindmap ---
     ET.indent(master_tree, space="  ")
     master_tree.write(output_path, encoding="utf-8", xml_declaration=True)
-
+    convert_links_in_mm(output_path, output_path)
     print(f"\n✅ Full merged mindmap saved at: {output_path}")
 
 
-# if __name__ == "__main__":
-#     merge_mindmaps()
+if __name__ == "__main__":
+    merge_mindmaps("comp360software")
+

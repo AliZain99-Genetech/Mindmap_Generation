@@ -19,7 +19,7 @@ def safe_filename(url: str) -> str:
 async def take_screenshot(url: str, filename: str):
     """Capture screenshot at laptop viewport size."""
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.launch(headless=False)
         context = await browser.new_context(
             ignore_https_errors=True,
             viewport={"width": VIEWPORT_WIDTH, "height": VIEWPORT_HEIGHT}
@@ -27,7 +27,10 @@ async def take_screenshot(url: str, filename: str):
         page = await context.new_page()
         try:
             await page.goto(url,wait_until="domcontentloaded", timeout=90000)
-            await asyncio.sleep(2)  # small delay to ensure page loads fully
+            await asyncio.sleep(2)  # small delay to ensure page loads fully # 1 second; adjust if animations are slow
+            await page.mouse.move(100, 100)
+            await page.mouse.move(120, 120)
+            await page.wait_for_timeout(500)
             await page.screenshot(path=filename)  # not full_page
             print(f"✅ Screenshot captured for {url}")
         except Exception as e:
@@ -70,7 +73,7 @@ def add_screenshot_node(parent_node, screenshot_path):
 
 
 async def Screenshot_Node(base_folder="."):
-    INPUT_MM = os.path.join(base_folder, "Full_Website_Structure_updated.mm")
+    INPUT_MM = os.path.join(base_folder, "Merged_Website_Structure.mm")
     OUTPUT_MM = os.path.join(base_folder, "Full_Website_Structure_with_screenshots.mm")
     SCREENSHOT_DIR = os.path.join(base_folder, "hyperlink_screenshots")
     os.makedirs(SCREENSHOT_DIR, exist_ok=True)
@@ -128,5 +131,4 @@ async def Screenshot(base_folder="dayzee"):
     print(f"\n💾 Updated mindmap saved as: {OUTPUT_MM}")
 
 # if __name__ == "__main__":
-#     asyncio.run(Screenshot())
-# 
+#     asyncio.run(Screenshot("comp360software"))

@@ -224,6 +224,10 @@ BUTTON_DESCRIPTIONS = {
     "expand": "Expands the section for more details.",
     "collapse": "Collapses the section to hide details.",
     "footer": "Displays footer information and links.",
+    "Submit": "Thanks for submitting the form! We will get back to you shortly.",
+    "Subscribe": "Thank you for subscribing to our newsletter! Stay tuned for updates.",
+    "Request a Demo Button": "Requests a personalized demonstration of our services.",
+    "Request a Demo": "Requests a personalized demonstration of our services."
 }
 
 # ========================
@@ -312,6 +316,11 @@ def process_mindmap(input_file, output_file):
     # Step 2: Add descriptions
     updated = add_description_nodes(root)
 
+    # collapse_all_nodes(input_file, output_file)
+    count = 0
+    for node in root.iter("node"):
+        node.set("FOLDED", "true")
+        count += 1
     # Step 3: Save final file (screenshots preserved!)
     tree.write(
         output_file,
@@ -319,7 +328,6 @@ def process_mindmap(input_file, output_file):
         xml_declaration=True,
         pretty_print=True,
     )
-    collapse_all_nodes(input_file, output_file)
 
     print(f"\n💾 Saved updated mindmap: {output_file}")
     print(f"🧠 Total nodes updated with descriptions: {updated}")
@@ -329,8 +337,8 @@ def process_mindmap(input_file, output_file):
 # Runner
 # ========================
 if __name__ == "__main__":
-    INPUT_MM = r"lionsandtigers\Full_Website_Structure_with_screenshots.mm"
-    OUTPUT_MM = r"lionsandtigers\Full_Website_Structure_updated_with_descriptions.mm"
+    INPUT_MM = r"comp360software\Full_Website_Structure_with_screenshots.mm"
+    OUTPUT_MM = r"comp360software\Full_Website_Structure_updated_with_descriptions.mm"
 
     if not os.path.exists(INPUT_MM):
         print("❌ Input file not found.")

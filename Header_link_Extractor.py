@@ -99,5 +99,7 @@ def extract_links_from_header_json(header_json_path="header_links.json", base_fo
 
 
 
-# if __name__ == "__main__":
-#     extract_links_from_header_json()
+if __name__ == "__main__":
+    header_json_path="comp360software/header_links.json"
+    base_folder="comp360software"
+    extract_links_from_header_json(header_json_path, base_folder)

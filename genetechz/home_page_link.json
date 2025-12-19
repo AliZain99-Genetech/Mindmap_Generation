@@ -1,0 +1,32 @@
+[
+  {
+    "page_title": "Log in - Pole Sport Organization",
+    "hyper_text": "Dashboard",
+    "link": "http://polesportorg.genetechz.com/User"
+  },
+  {
+    "page_title": "Log in - Pole Sport Organization",
+    "hyper_text": "Register to compete",
+    "link": "https://polesportorg.com/collections/competitors"
+  },
+  {
+    "page_title": "Log in - Pole Sport Organization",
+    "hyper_text": "Apply to judge",
+    "link": "http://polesportorg.genetechz.com/Event/RegisterToJudge"
+  },
+  {
+    "page_title": "Log in - Pole Sport Organization",
+    "hyper_text": "Log in",
+    "link": "http://polesportorg.genetechz.com/Account/Login"
+  },
+  {
+    "page_title": "Log in - Pole Sport Organization",
+    "hyper_text": "Register as a new user",
+    "link": "http://polesportorg.genetechz.com/Account/Register"
+  },
+  {
+    "page_title": "Log in - Pole Sport Organization",
+    "hyper_text": "Forgot Password?",
+    "link": "http://polesportorg.genetechz.com/Account/ForgotPassword"
+  }
+]

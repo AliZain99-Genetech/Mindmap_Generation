@@ -33,6 +33,6 @@ def extract_links(url):
 
 
 if __name__ == "__main__":
-    links=extract_links("https://teamupventures.com/")
-    with open("home_page_links.json", "w", encoding="utf-8") as f:
+    links=extract_links("https://dmaid.dk/")
+    with open(r"dmaid/home_page_links.json", "w", encoding="utf-8") as f:
         json.dump(links, f, indent=2)

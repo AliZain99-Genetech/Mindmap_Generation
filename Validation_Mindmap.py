@@ -64,7 +64,7 @@ def replace_ampersand_with_space(input_file, output_file=None):
     tree.write(output_file, encoding="utf-8", xml_declaration=True)
     print(f"✅ Replaced '&' with spaces in {count} nodes → {output_file}")
 
-def validation(base_folder="com"):
+def validation(base_folder="genetechsolutions"):
     MM_FILE = os.path.join(base_folder, "Merged_Website_Structure.mm")
     OUTPUT_FILE = os.path.join(base_folder, "Full_Website_Structure_updated.mm")
     header_file = os.path.join(base_folder,"header_links.json")

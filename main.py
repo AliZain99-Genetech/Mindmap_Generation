@@ -11,6 +11,9 @@ from Header_mindmaps import generate_mindmaps_from_headers
 from Merge_All_Header_Mindmap import merge_mindmaps
 from Validation_Mindmap import validation
 from Screenshot_node import Screenshot_Node
+from generate_testcases import testcases
+from MergeTestcasesIntoMindmap import merge_testcases_into_full
+from error404 import screenshot_if_404
 from zip import zip_folder
 from button_description import process_mindmap
 import json
@@ -19,6 +22,7 @@ import os
 import sys
 import traceback
 from dotenv import load_dotenv
+
 load_dotenv()
 # CRITICAL: Use ProactorEventLoop for Windows + Playwright subprocess support
 if sys.platform == "win32":
@@ -73,7 +77,7 @@ def extract():
         # Run the new extractor function
         json_file_path = os.path.join(folder_name, "header_links.json")
         output_folder = os.path.join(folder_name,"screenshot/home")
-        home_screenshot(url, output_folder)
+        # home_screenshot(url, output_folder)
         home_link=extract_links(url)
         output_file=os.path.join(folder_name, "home_page_link.json")
         with open(output_file, "w", encoding="utf-8") as f:
@@ -83,11 +87,9 @@ def extract():
         output_mm_file=os.path.join(folder_name,"mindmaps/home.mm")
         logging.info("Home page mindmap generated.")
         extract_all_links_with_submenus(url, headless=True, output_file=json_file_path)
-
-        # if not links_file or not os.path.exists(links_file):
-        #     return jsonify({'error': 'Failed to create header_links.json file'}), 500
-
         # Load the links from the generated file to return them in the response
+        print(f" folder {json_file_path}")
+        # os.makedirs(json_file_path, exist_ok=True)
         with open(json_file_path, "r", encoding="utf-8") as f:
             cleaned_links = json.load(f)
         
@@ -97,7 +99,7 @@ def extract():
             logging.info("🚀 Starting header link extraction process...")
 
             # --- Extract header links ---
-            extract_links_from_header_json(header_json_path=input_file, base_folder=folder_name)
+            # extract_links_from_header_json(header_json_path=input_file, base_folder=folder_name)
             logging.info("✅ Header links extracted successfully.")
 
             # --- Determine domain folder from input file ---
@@ -118,10 +120,10 @@ def extract():
                 logging.info(f"📂 Found headers folder {headers_folder}. Starting MindMap generation...")
 
                 # 🧠 Generate MindMaps for all header link files
-                asyncio.run(generate_mindmaps_from_headers(headers_folder,extracted_header_path,output_folder,screenshot_folder))
+                # asyncio.run(generate_mindmaps_from_headers(headers_folder,extracted_header_path,output_folder,screenshot_folder))
                 logging.info("✅ MindMaps created from header links.")
                 logging.info("✅ making home mindmap")
-                asyncio.run( home_page(home_screenshot_folder,home_file,output_mm_file))
+                # asyncio.run( home_page(home_screenshot_folder,home_file,output_mm_file))
                 logging.info("✅ done home mindmap")
                 # 🔗 Merge all generated MindMaps
                 logging.info("🔄 Merging all header MindMaps...")
@@ -130,7 +132,7 @@ def extract():
 
                 # ✅ Validate the final merged structure
                 logging.info("🧩 Starting validation...")
-                validation(base_folder=folder_name)
+                # validation(base_folder=folder_name)
                 logging.info("✅ Validation complete.")
 
                 # 🖼️ Take screenshots of nodes
@@ -187,7 +189,7 @@ def extract():
                     # 🧠 Merge all MindMaps into a single file
                     logging.info("🔄 Merging all MindMaps into one unified file...")
                     from Merge import generating_full_mindmapp
-                    generating_full_mindmapp(base_folder=domain_folder)
+                    # generating_full_mindmapp(base_folder=domain_folder)
                     logging.info("✅ Unified MindMap generated.")
 
                     # 📝 Add button descriptions
@@ -227,6 +229,15 @@ def extract():
                     else:
                         process_mindmap(INPUT_MM, OUTPUT_MM)
                         logging.info("✅ Button descriptions added successfully.")
+                        final_output_path= os.path.join(domain_folder, "Generated_TestCases.mm")
+                        raw_output_path=os.path.join(domain_folder, "raw_model_output.mm") 
+                        header_links=os.path.join(domain_folder, "header_links.json")
+                        print(f"output file {raw_output_path}")                          
+                        # testcases(OUTPUT_MM,raw_output_path,final_output_path,header_links)
+                        merge_testcases_into_full(OUTPUT_MM,final_output_path,os.path.join(domain_folder, "Full_Website_Structure_updated_with_descriptions_and_testCases.mm"))
+                        logging.info("✅ Test cases merged successfully.")
+                        test_url=url+"abc" # Example URL that gives 404
+                        screenshot_if_404(test_url,base_folder=domain_folder)
                     try:
                         output_zip_file = f"{folder_name}.zip"
                         zip_folder(folder_name, output_zip_file)
@@ -273,8 +284,8 @@ def download_file(filename):
     return send_from_directory(os.getcwd(), filename, as_attachment=True)
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, use_reloader=False,allow_unsafe_werkzeug=True)
-   
+    socketio.run(app,host='0.0.0.0', debug=True, use_reloader=False,allow_unsafe_werkzeug=True)
+    
 
     
 

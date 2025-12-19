@@ -1,702 +1,433 @@
-<?xml version='1.0' encoding='utf-8'?>
 <map version="1.0.1">
-  <node TEXT="House Cleaning Services Melbourne | Professional Cleaners | Crystal Maids">
-    <node TEXT="Header">
-      <node TEXT="Logo" />
-      <node TEXT="Navigation">
-        <node TEXT="Home" LINK="https://crystalmaids.com.au/" />
-        <node TEXT="About Us" LINK="https://crystalmaids.com.au/about-us/">
-          <node TEXT="About Us Introduction">
-            <node TEXT="Company purpose: Premium home cleaning in Melbourne" />
-            <node TEXT="Why Us: Client care, service details, extra mile" />
-          </node>
-          <node TEXT="Our Team   Onboarding">
-            <node TEXT="Team trust and onboarding process overview" />
-            <node TEXT="Onboarding Steps">
-              <node TEXT="Application" />
-              <node TEXT="Questionnaire test" />
-              <node TEXT="Phone Screening" />
-              <node TEXT="Face to Face interview" />
-              <node TEXT="Trial clean" />
-              <node TEXT="Police and background check" />
-              <node TEXT="Professional reference check" />
-            </node>
-          </node>
-          <node TEXT="Pet Friendly Message">
-            <node TEXT="Hi there, my name is Nala - Team loves animals and is 100% pet friendly!" />
-            <node TEXT="Book Now">
-              <node TEXT="https://crystalmaids.com.au/booking-page/" />
-            </node>
-          </node>
-        </node>
-        <node TEXT="Services" LINK="https://crystalmaids.com.au/our-services/">
-          <node TEXT="House Cleaning" LINK="https://crystalmaids.com.au/our-services/house-cleaning/">
-            <node TEXT="House Cleaning Service in Melbourne">
-              <node TEXT="Overview and Benefits" />
-              <node TEXT="200% Satisfaction guaranteed" />
-              <node TEXT="Police Checked   Fully Insured" />
-            </node>
-            <node TEXT="Quote Form">
-              <node TEXT="Name" />
-              <node TEXT="Email" />
-              <node TEXT="Mobile Number" />
-              <node TEXT="View Price" />
-            </node>
-            <node TEXT="Detailed Service Information">
-              <node TEXT="What you get - Service Inclusions" />
-              <node TEXT="Select Services">
-                <node TEXT="General Service" LINK="https://crystalmaids.com.au/our-services/house-cleaning/#tab-1" />
-                <node TEXT="Deep Clean" LINK="https://crystalmaids.com.au/our-services/house-cleaning/#tab-2" />
-                <node TEXT="Move In / Move Out" LINK="https://crystalmaids.com.au/our-services/house-cleaning/#tab-3" />
-              </node>
-              <node TEXT="Kitchen Cleaning Summary" />
-              <node TEXT="Bedroom   Living Room Summary" />
-              <node TEXT="Bathroom Cleaning Summary" />
-              <node TEXT="Common Areas Summary" />
-              <node TEXT="Additional Services Summary" />
-            </node>
-            <node TEXT="FAQs">
-              <node TEXT="Frequently Asked Questions" />
-            </node>
-            <node TEXT="Customer Reviews">
-              <node TEXT="Customer testimonial example" />
-            </node>
-            <node TEXT="Book Now">
-              <node TEXT="Book Now" LINK="https://crystalmaids.com.au/booking-page/" />
-            </node>
-          </node>
-          <node TEXT="NDIS House Cleaning" LINK="https://crystalmaids.com.au/our-services/ndis-house-cleaning/">
-            <node TEXT="NDIS House Cleaning Services in Melbourne">
-              <node TEXT="Quote Now" LINK="https://crystalmaids.com.au/ndis-booking/" />
-              <node TEXT="200% Satisfaction guaranteed" />
-              <node TEXT="Police Checked" />
-              <node TEXT="Fully Insured" />
-            </node>
-            <node TEXT="Our NDIS Cleaning Services">
-              <node TEXT="Service tailored to NDIS needs" />
-              <node TEXT="NDIS house cleaning services" LINK="http://crystalmaids.com.au/our-services/" />
-            </node>
-            <node TEXT="Crystal Maids is a NDIS House Cleaning Provider">
-              <node TEXT="Provider for NDIS house cleaning and housekeeping" />
-              <node TEXT="self-managed" LINK="https://www.ndis.gov.au/participants/creating-your-plan/ways-manage-your-funding/self-managed#:~:text=Self%2Dmanagement%20is%20when%20you,visit%20our%20Self%2Dmanagement%20page." />
-              <node TEXT="plan managed" LINK="https://www.ndis.gov.au/participants/creating-your-plan/ways-manage-your-funding/plan-managed-funding" />
-              <node TEXT="Disinfectant Cleaning">
-                <node TEXT="Our disinfectant cleaning" LINK="http://crystalmaids.com.au/our-services/disinfectant-cleaning/" />
-              </node>
-              <node TEXT="Deep Cleaning">
-                <node TEXT="Our deep cleaning service" LINK="http://crystalmaids.com.au/our-services/deep-cleaning/" />
-              </node>
-              <node TEXT="End of Lease Cleaning">
-                <node TEXT="end-of-lease clean" LINK="http://crystalmaids.com.au/our-services/end-of-lease-cleaning/" />
-              </node>
-            </node>
-            <node TEXT="Ready To Start?">
-              <node TEXT="Book your NDIS cleaner today!" />
-              <node TEXT="BOOK NOW" LINK="https://crystalmaids.com.au/booking-page/" />
-            </node>
-            <node TEXT="Why Choose Crystal Maids for NDIS Cleaning">
-              <node TEXT="Clean   safe environment, independence, and kind team" />
-              <node TEXT="Services that fit your life" />
-            </node>
-            <node TEXT="Booking Your NDIS Cleaning Is Simple – How It Works">
-              <node TEXT="Check Your Eligibility" />
-              <node TEXT="Chat With Our Friendly Team" />
-              <node TEXT="We Create Your Tailored Cleaning Plan" />
-              <node TEXT="Your Home Looks as Good as New" />
-            </node>
-            <node TEXT="Our Promise — 200% Satisfaction Guaranteed">
-              <node TEXT="Free re-clean if unsatisfied or full refund" />
-              <node TEXT="Book our NDIS cleaning services today!" LINK="https://crystalmaids.com.au/booking-page/" />
-            </node>
-            <node TEXT="Experience the Crystal Maids Difference">
-              <node TEXT="Making life easier, cleaner, and happier for NDIS participants" />
-              <node TEXT="caring Melbourne team" LINK="https://crystalmaids.com.au/location/" />
-            </node>
-            <node TEXT="Here’s what you get!">
-              <node TEXT="Effort to make your home look as good as new" />
-            </node>
-            <node TEXT="Service Tabs">
-              <node TEXT="General Service" LINK="https://crystalmaids.com.au/our-services/ndis-house-cleaning/#tab-1" />
-              <node TEXT="Deep Clean" LINK="https://crystalmaids.com.au/our-services/ndis-house-cleaning/#tab-2" />
-              <node TEXT="Move In / Move Out" LINK="https://crystalmaids.com.au/our-services/ndis-house-cleaning/#tab-3" />
-            </node>
-            <node TEXT="Service Areas Included">
-              <node TEXT="Kitchen Cleaning" />
-              <node TEXT="Bedroom   Living Room" />
-              <node TEXT="Bathroom Cleaning" />
-              <node TEXT="Common Areas" />
-              <node TEXT="Additional Services" />
-            </node>
-            <node TEXT="Customer Reviews">
-              <node TEXT="Feedback from NDIS cleaning clients" />
-            </node>
-            <node TEXT="FAQs">
-              <node TEXT="How much do NDIS cleaners charge per hour?" />
-              <node TEXT="Will NDIS pay for window cleaning?" />
-              <node TEXT="How do I know if I need regular or occasional cleaning?" />
-              <node TEXT="Can I include NDIS cleaning services in my existing plan?" />
-            </node>
-          </node>
-          <node TEXT="Deep Cleaning" LINK="https://crystalmaids.com.au/our-services/deep-cleaning/">
-            <node TEXT="Deep House Cleaning Service in Melbourne">
-              <node TEXT="Service description and features summary" />
-              <node TEXT="200% Satisfaction guaranteed" />
-              <node TEXT="Police Checked" />
-              <node TEXT="Fully Insured" />
-            </node>
-            <node TEXT="Form">
-              <node TEXT="Name*" />
-              <node TEXT="Email*" />
-              <node TEXT="Mobile Number*" />
-              <node TEXT="View Price" />
-            </node>
-            <node TEXT="Professional House Deep Cleaning Service">
-              <node TEXT="Service details and benefits summary" />
-              <node TEXT="Book Now">
-                <node TEXT="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-            <node TEXT="Here’s what you get!">
-              <node TEXT="Service packages">
-                <node TEXT="General Service">
-                  <node TEXT="https://crystalmaids.com.au/our-services/deep-cleaning/#tab-1" />
-                </node>
-                <node TEXT="Deep Clean">
-                  <node TEXT="https://crystalmaids.com.au/our-services/deep-cleaning/#tab-2" />
-                </node>
-                <node TEXT="Move In / Move Out">
-                  <node TEXT="https://crystalmaids.com.au/our-services/deep-cleaning/#tab-3" />
-                </node>
-              </node>
-              <node TEXT="Kitchen, Bedroom   Living Room, Bathroom, Common Areas, Additional Services" />
-            </node>
-            <node TEXT="Frequently Asked Questions">
-              <node TEXT="Q: What is the difference between a General clean and a Deep clean?" />
-              <node TEXT="Q: Do you bring your own cleaning equipment and supplies?" />
-              <node TEXT="Q: Do I need to be home during the service?" />
-            </node>
-            <node TEXT="Customer Reviews">
-              <node TEXT="Sample customer feedback/testimonial" />
-            </node>
-            <node TEXT="200% Satisfaction Guaranteed">
-              <node TEXT="Guarantee policy summary and offer" />
-              <node TEXT="Book Now">
-                <node TEXT="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-          </node>
-          <node TEXT="End Of Lease Cleaning" LINK="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/">
-            <node TEXT="End Of Lease Cleaning Service in Melbourne">
-              <node TEXT="Section summary: Premium cleaning for moving out, giving you time and satisfaction guarantee." />
-              <node TEXT="Guarantees">
-                <node TEXT="200% Satisfaction guaranteed" />
-                <node TEXT="Police Checked" />
-                <node TEXT="Fully Insured" />
-              </node>
-            </node>
-            <node TEXT="Booking Form">
-              <node TEXT="Name*" />
-              <node TEXT="Email*" />
-              <node TEXT="Mobile Number*" />
-              <node TEXT="View Price Button" />
-            </node>
-            <node TEXT="End Of Lease House Cleaning Service Melbourne">
-              <node TEXT="Section summary: Comprehensive cleaning service with checklist and fast online booking." />
-              <node TEXT="Book Now Button">
-                <node TEXT="Book Now" LINK="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-            <node TEXT="Here #39;s what you get!">
-              <node TEXT="Section summary: Inclusions and service options, select service type and see checklist." />
-              <node TEXT="Select Services">
-                <node TEXT="General Service" LINK="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/#tab-1" />
-                <node TEXT="Deep Clean" LINK="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/#tab-2" />
-                <node TEXT="Move In / Move Out" LINK="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/#tab-3" />
-              </node>
-            </node>
-            <node TEXT="Kitchen Cleaning">
-              <node TEXT="Bullet summary: Checklist of tasks for kitchen including surfaces, appliances, and details." />
-            </node>
-            <node TEXT="Bedroom   Living Room">
-              <node TEXT="Bullet summary: Cleaning checklist for bedrooms and living spaces, covering dusting, floor and bins." />
-            </node>
-            <node TEXT="Bathroom Cleaning">
-              <node TEXT="Bullet summary: Detailed cleaning list for bathroom, fixtures and glass." />
-            </node>
-            <node TEXT="Common Areas">
-              <node TEXT="Bullet summary: Tasks for shared spaces—dusting, mirrors, tidying, bins, and floor." />
-            </node>
-            <node TEXT="Additional Services">
-              <node TEXT="Bullet summary: Optional extras such as fridge, laundry, green supplies, and interior windows." />
-            </node>
-            <node TEXT="Frequently Asked Questions">
-              <node TEXT="Q: Does end of lease cleaning come with a Bond Guarantee?" />
-              <node TEXT="Q: Do you do carpet steam cleaning?" />
-              <node TEXT="Q: What is included in an end of lease clean?" />
-            </node>
-            <node TEXT="Customer Reviews">
-              <node TEXT="Section summary: Positive customer feedback on quality of cleaning and service." />
-            </node>
-            <node TEXT="Satisfaction Guarantee">
-              <node TEXT="Section summary: Promise of satisfaction or refund, nothing to lose." />
-              <node TEXT="Book Now Button">
-                <node TEXT="Book Now" LINK="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-          </node>
-          <node TEXT="Apartment Cleaning" LINK="https://crystalmaids.com.au/our-services/apartment-cleaning/">
-            <node TEXT="Introduction   Promo">
-              <node TEXT="Apartment Cleaning Service in Melbourne - summary of main offering and trust badges" />
-            </node>
-            <node TEXT="Quote Request Form">
-              <node TEXT="Name" />
-              <node TEXT="Email" />
-              <node TEXT="Mobile Number" />
-              <node TEXT="View Price (button)" />
-            </node>
-            <node TEXT="Service Overview Section">
-              <node TEXT="Apartment Cleaning Service Melbourne - main benefits and info" />
-              <node TEXT="Book Now (button)">
-                <node TEXT="Book Now" LINK="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-            <node TEXT="Service Selection Tabs">
-              <node TEXT="General Service (active)">
-                <node TEXT="General Service" LINK="https://crystalmaids.com.au/our-services/apartment-cleaning/#tab-1" />
-              </node>
-              <node TEXT="Deep Clean">
-                <node TEXT="Deep Clean" LINK="https://crystalmaids.com.au/our-services/apartment-cleaning/#tab-2" />
-              </node>
-              <node TEXT="Move In / Move Out">
-                <node TEXT="Move In / Move Out" LINK="https://crystalmaids.com.au/our-services/apartment-cleaning/#tab-3" />
-              </node>
-            </node>
-            <node TEXT="Service Inclusions">
-              <node TEXT="Kitchen Cleaning - summary of checklist items" />
-              <node TEXT="Bedroom   Living Room - summary of checklist items" />
-              <node TEXT="Bathroom Cleaning - summary of checklist items" />
-              <node TEXT="Common Areas - summary of checklist items" />
-              <node TEXT="Additional Services - summary of optional extras" />
-            </node>
-            <node TEXT="Frequently Asked Questions">
-              <node TEXT="Do you clean balconies?" />
-              <node TEXT="Can I request special tasks or extras?" />
-              <node TEXT="Do you have discounts for regular clients?" />
-              <node TEXT="Do you do laundry?" />
-            </node>
-            <node TEXT="Customer Reviews">
-              <node TEXT="Sample customer review summary" />
-            </node>
-            <node TEXT="Satisfaction Guarantee">
-              <node TEXT="200% Satisfaction Guaranteed - refund and re-clean policy summary" />
-              <node TEXT="Book Now (button)">
-                <node TEXT="Book Now" LINK="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-          </node>
-          <node TEXT="Disinfectant Cleaning" LINK="https://crystalmaids.com.au/our-services/disinfectant-cleaning/">
-            <node TEXT="Intro: Disinfectant Cleaning Services in Melbourne">
-              <node TEXT="Brief: High quality house cleaning and disinfection services" />
-              <node TEXT="Guarantees   Features">
-                <node TEXT="200% Satisfaction guaranteed" />
-                <node TEXT="Police Checked" />
-                <node TEXT="Fully Insured" />
-              </node>
-            </node>
-            <node TEXT="Quick Quote Form">
-              <node TEXT="Name" />
-              <node TEXT="Email" />
-              <node TEXT="Mobile Number" />
-              <node TEXT="View Price (button)" />
-            </node>
-            <node TEXT="Service Overview and Booking">
-              <node TEXT="Difference between disinfectant and normal clean" />
-              <node TEXT="How to book">
-                <node TEXT="Book Now">
-                  <node TEXT="https://crystalmaids.com.au/booking-page/" />
-                </node>
-              </node>
-            </node>
-            <node TEXT="Here’s what you get! Services Explained">
-              <node TEXT="Select Services">
-                <node TEXT="General Service">
-                  <node TEXT="https://crystalmaids.com.au/our-services/disinfectant-cleaning/#tab-1" />
-                </node>
-                <node TEXT="Deep Clean">
-                  <node TEXT="https://crystalmaids.com.au/our-services/disinfectant-cleaning/#tab-2" />
-                </node>
-                <node TEXT="Move In / Move Out">
-                  <node TEXT="https://crystalmaids.com.au/our-services/disinfectant-cleaning/#tab-3" />
-                </node>
-              </node>
-            </node>
-            <node TEXT="Kitchen Cleaning">
-              <node TEXT="Checklist summary: Cobwebs, microwave, surfaces, appliances, cabinets" />
-            </node>
-            <node TEXT="Bedroom   Living Room Cleaning">
-              <node TEXT="Checklist summary: Mirrors, floors, rubbish bins, light switches, baseboards" />
-            </node>
-            <node TEXT="Bathroom Cleaning">
-              <node TEXT="Checklist summary: Showers, sinks, toilets, mirrors, baseboards, detail attention" />
-            </node>
-            <node TEXT="Common Areas">
-              <node TEXT="Checklist summary: Cobwebs, mirrors, floors, pillows arrangement, rubbish bins" />
-            </node>
-            <node TEXT="Additional Services">
-              <node TEXT="Extras: Inside fridge, laundry, balcony, green supplies, making beds, interior windows" />
-            </node>
-            <node TEXT="Frequently Asked Questions">
-              <node TEXT="What is the difference with disinfectant cleaning?" />
-              <node TEXT="Do you bring your own cleaning equipment and supplies?" />
-              <node TEXT="Can I trust my cleaning professional?" />
-            </node>
-            <node TEXT="Customer Reviews">
-              <node TEXT="Summary: Customer testimonial on satisfaction and quality of cleaners/support team" />
-            </node>
-            <node TEXT="200% Satisfaction Guarantee">
-              <node TEXT="Policy: Free re-clean or refund if not happy" />
-              <node TEXT="Book Now">
-                <node TEXT="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-          </node>
-          <node TEXT="House Window Cleaning" LINK="https://crystalmaids.com.au/our-services/house-window-cleaning/">
-            <node TEXT="House Window Cleaning Services in Melbourne">
-              <node TEXT="Service overview and benefits" />
-              <node TEXT="200% Satisfaction guaranteed" />
-              <node TEXT="Police Checked" />
-              <node TEXT="Fully Insured" />
-            </node>
-            <node TEXT="Instant Price Form">
-              <node TEXT="Name" />
-              <node TEXT="Email" />
-              <node TEXT="Mobile Number" />
-              <node TEXT="View Price" />
-            </node>
-            <node TEXT="Details   Process">
-              <node TEXT="Why regular window cleaning is important" />
-              <node TEXT="Crystal Maids Professional Services overview" />
-              <node TEXT="We Use the Best Tools and Cleaners" />
-              <node TEXT="Free Yourself From the Chore of Cleaning" />
-            </node>
-            <node TEXT="Book Now">
-              <node TEXT="Book Now">
-                <node TEXT="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-            <node TEXT="Customer Reviews">
-              <node TEXT="Customer feedback highlights" />
-            </node>
-            <node TEXT="200% SATISFACTION GUARANTEED">
-              <node TEXT="Service satisfaction policy summary" />
-              <node TEXT="Book Now">
-                <node TEXT="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-          </node>
-          <node TEXT="Oven Cleaning" LINK="https://crystalmaids.com.au/our-services/oven-cleaning/">
-            <node TEXT="Hero Section   Quick Form">
-              <node TEXT="Oven Cleaning Service in Melbourne - Overview" />
-              <node TEXT="Service Assurance: 200% Satisfaction guaranteed, Police Checked, Fully Insured" />
-              <node TEXT="Request Quote Form">
-                <node TEXT="Name" />
-                <node TEXT="Email" />
-                <node TEXT="Mobile Number" />
-                <node TEXT="View Price" />
-              </node>
-            </node>
-            <node TEXT="Service Details   Features">
-              <node TEXT="Oven Cleaning Service Melbourne summary and importance" />
-              <node TEXT="Professional Oven Cleaning Services summary" />
-              <node TEXT="Best Tools   Cleaners for Ovens summary" />
-              <node TEXT="Benefit: Free Yourself From the Chore" />
-              <node TEXT="Book Now">
-                <node TEXT="Book Now Button" />
-                <node TEXT="Book Now Link: https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-            <node TEXT="Customer Reviews">
-              <node TEXT="Customer Reviews Highlight" />
-            </node>
-            <node TEXT="Satisfaction Guarantee Section">
-              <node TEXT="200% Satisfaction Guarantee explained" />
-              <node TEXT="Book Now">
-                <node TEXT="Book Now Button" />
-                <node TEXT="Book Now Link: https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-          </node>
-          <node TEXT="Service Introduction">
-            <node TEXT="Tired after a long day at work? Don’t stress, leave it to us, it’s what we do best!" />
-            <node TEXT="View All Our Cleaning Services">
-              <node TEXT="https://crystalmaids.com.au/our-services/#view-services" />
-            </node>
-          </node>
-          <node TEXT="Service Range Overview">
-            <node TEXT="We cover a wide range of house cleaning services and household chores" />
-            <node TEXT="Oven Cleaning">
-              <node TEXT="https://crystalmaids.com.au/our-services/oven-cleaning/" />
-            </node>
-            <node TEXT="House Window Cleaning">
-              <node TEXT="https://crystalmaids.com.au/our-services/house-window-cleaning/" />
-            </node>
-            <node TEXT="NDIS House Cleaning">
-              <node TEXT="https://crystalmaids.com.au/our-services/ndis-house-cleaning/" />
-            </node>
-            <node TEXT="Disinfectant Cleaning">
-              <node TEXT="https://crystalmaids.com.au/our-services/disinfectant-cleaning/" />
-            </node>
-            <node TEXT="Apartment Cleaning">
-              <node TEXT="https://crystalmaids.com.au/our-services/apartment-cleaning/" />
-            </node>
-            <node TEXT="End Of Lease Cleaning">
-              <node TEXT="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/" />
-            </node>
-            <node TEXT="House Cleaning">
-              <node TEXT="https://crystalmaids.com.au/our-services/house-cleaning/" />
-            </node>
-            <node TEXT="Deep Cleaning">
-              <node TEXT="https://crystalmaids.com.au/our-services/deep-cleaning/" />
-            </node>
-          </node>
-          <node TEXT="Satisfaction Guarantee">
-            <node TEXT="200% Satisfaction Guaranteed and refund policy" />
-            <node TEXT="Book Now">
-              <node TEXT="https://crystalmaids.com.au/booking-page/" />
-            </node>
-          </node>
-          <node TEXT="Customer Reviews">
-            <node TEXT="Recent customer review testimonial" />
-          </node>
-          <node TEXT="Areas We Serve">
-            <node TEXT="Serviceable locations list" />
-            <node TEXT="Service Area Map Image" />
-          </node>
-        </node>
-        <node TEXT="Pricing" LINK="https://crystalmaids.com.au/pricing/">
-          <node TEXT="Quick Quote Section">
-            <node TEXT="Get a quote in just 60 seconds!" />
-            <node TEXT="Form">
-              <node TEXT="Name*" />
-              <node TEXT="Email*" />
-              <node TEXT="Mobile Number*" />
-              <node TEXT="View Price (button)" />
-            </node>
-            <node TEXT="200% Satisfaction guaranteed" />
-            <node TEXT="Police Checked" />
-            <node TEXT="Fully Insured" />
-          </node>
-          <node TEXT="Flexible Cleaning Pricing Options">
-            <node TEXT="Hourly">
-              <node TEXT="Flexible hourly cleaning schedules" />
-              <node TEXT="Get a Quote">
-                <node TEXT="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-            <node TEXT="Flat Rate">
-              <node TEXT="Flat rate quotes for homes based on size" />
-              <node TEXT="Get a Quote">
-                <node TEXT="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-            <node TEXT="Loyalty Discounts">
-              <node TEXT="Discounts for regular clients (weekly, fortnightly, monthly)" />
-              <node TEXT="Get a Quote">
-                <node TEXT="https://crystalmaids.com.au/booking-page/" />
-              </node>
-            </node>
-          </node>
-          <node TEXT="Service Inclusions and Reviews">
-            <node TEXT="Here’s what you get!" />
-            <node TEXT="Customer Reviews" />
-          </node>
-          <node TEXT="Satisfaction Guarantee Section">
-            <node TEXT="200% SATISFACTION GUARANTEED" />
-            <node TEXT="Book Now">
-              <node TEXT="https://crystalmaids.com.au/booking-page/" />
-            </node>
-          </node>
-          <node TEXT="Crystal Clear Policy">
-            <node TEXT="Policy on home service and extra guarantees" />
-            <node TEXT="Book Now">
-              <node TEXT="https://crystalmaids.com.au/booking-page/" />
-            </node>
-          </node>
-        </node>
-        <node TEXT="Checklist" LINK="https://crystalmaids.com.au/checklist/">
-          <node TEXT="Crystal Maids Checklist sections summary">
-            <node TEXT="Kitchen - cleaning appliances, surfaces, bins, and floors" />
-            <node TEXT="Bathrooms - clean mirrors, fixtures, tub, and floors" />
-            <node TEXT="Common Areas - dust, clean mirrors, vacuum, tidy area" />
-            <node TEXT="Bedrooms - dust, clean mirrors, tidy beds and floors" />
-            <node TEXT="Deep Cleaning - extra detail for kitchen and bathrooms" />
-            <node TEXT="End of Lease Cleaning - inside drawers, ceiling fans, oven" />
-            <node TEXT="Additional Services - oven, fridge, green/disinfectant supplies" />
-          </node>
-          <node TEXT="Book Now">
-            <node TEXT="Book Now link" LINK="https://crystalmaids.com.au/booking-page/" />
-          </node>
-        </node>
-        <node TEXT="Location" LINK="https://crystalmaids.com.au/location/">
-          <node TEXT="Our Locations Overview">
-            <node TEXT="Service area map and company rating summary" />
-          </node>
-          <node TEXT="Main Service Areas">
-            <node TEXT="Eastern Suburbs">
-              <node TEXT="Link" LINK="https://crystalmaids.com.au/eastern-suburbs-house-cleaning/" />
-            </node>
-            <node TEXT="Brighton East">
-              <node TEXT="Link" LINK="https://crystalmaids.com.au/brighton-east-house-cleaning/" />
-            </node>
-            <node TEXT="Brighton">
-              <node TEXT="Link" LINK="https://crystalmaids.com.au/brighton-house-cleaning/" />
-            </node>
-            <node TEXT="Hawthorn">
-              <node TEXT="Link" LINK="https://crystalmaids.com.au/hawthorn-house-cleaning/" />
-            </node>
-            <node TEXT="Malvern East">
-              <node TEXT="Link" LINK="https://crystalmaids.com.au/malvern-east-house-cleaning/" />
-            </node>
-          </node>
-        </node>
-        <node TEXT="Careers" LINK="https://crystalmaids.com.au/career/">
-          <node TEXT="Join The Team and get more Cleaning Jobs in Melbourne">
-            <node TEXT="Summary">Work with Crystal Maids for more jobs, supportive team, and flexible hours.</node>
-            <node TEXT="Apply Now">
-              <node TEXT="Apply Now" LINK="https://crystalmaids.com.au/job-application/" />
-            </node>
-          </node>
-          <node TEXT="How Does It Work?">
-            <node TEXT="Summary">Overview of the job application process and what is required to join.</node>
-            <node TEXT="1. Apply">Fill in the online application form for interview.</node>
-            <node TEXT="2. Activate your account">Attend interview to verify details and activate account.</node>
-            <node TEXT="3. Pick up jobs">Get invited to jobs; accept ones you want.</node>
-            <node TEXT="4. Get paid weekly">Payment deposited every Monday.</node>
-          </node>
-          <node TEXT="Perks   Benefits">
-            <node TEXT="Summary">Highlights like competitive pay, flexible schedules, new clients, regular work, business growth and support.</node>
-          </node>
-          <node TEXT="Join Crystal Maids Promotion">
-            <node TEXT="Apply Now">
-              <node TEXT="Apply Now" LINK="https://crystalmaids.com.au/job-application/" />
-            </node>
-          </node>
-        </node>
-        <node TEXT="Help" LINK="https://crystalmaids.com.au/help/">
-          <node TEXT="Frequently Asked Questions">
-            <node TEXT="Do you service my area?" />
-            <node TEXT="What is included in a general cleaning?" />
-            <node TEXT="How much will it cost?" />
-            <node TEXT="Do you bring your own cleaning equipment and supplies?" />
-            <node TEXT="Can I request special tasks or extras?" />
-            <node TEXT="How do I reset my password?" />
-            <node TEXT="How do I book my first appointment?" />
-            <node TEXT="Can I apply a coupon to an existing appointment?" />
-            <node TEXT="Can I trust my cleaning professional?" />
-            <node TEXT="What happens if something goes wrong during my appointment?" />
-            <node TEXT="What is your 200% satisfaction guarantee policy?" />
-            <node TEXT="Can you use green products on request?" />
-            <node TEXT="Is it okay that I have pets in the home?" />
-            <node TEXT="Does end of lease cleaning come with a Bond Guarantee?" />
-            <node TEXT="Do you do carpet steam cleaning?" />
-            <node TEXT="What is included in an end of lease clean?" />
-            <node TEXT="What is the difference between a General clean and a Deep clean?" />
-            <node TEXT="Do I need to be home during the service?" />
-            <node TEXT="Do you clean balconies?" />
-            <node TEXT="Do you have discounts for regular clients?" />
-            <node TEXT="Do you do laundry?" />
-            <node TEXT="What is the difference with disinfectant cleaning?" />
-          </node>
-        </node>
-        <node TEXT="Book Now" LINK="https://crystalmaids.com.au/booking-page/" />
-      </node>
-    </node>
-    <node TEXT="Home Page Content">
-      <node TEXT="#1 House Cleaning Company Melbourne">
-        <node TEXT="Intro Text" />
-        <node TEXT="Guarantees">
-          <node TEXT="200% Satisfaction guaranteed" />
-          <node TEXT="Police Checked" />
-          <node TEXT="Fully Insured" />
-        </node>
-        <node TEXT="Quote Form">
-          <node TEXT="Name*" />
-          <node TEXT="Email*" />
-          <node TEXT="Mobile Number*" />
-          <node TEXT="View Price (Button)" />
-        </node>
-      </node>
-      <node TEXT="How Crystal Maids Works">
-        <node TEXT="Quote" />
-        <node TEXT="Clean" />
-        <node TEXT="Pay" />
-        <node TEXT="Review" />
-      </node>
-      <node TEXT="About Us Section">
-        <node TEXT="About Us Intro" />
-        <node TEXT="Book Now (Button)" LINK="https://crystalmaids.com.au/booking-page/" />
-      </node>
-      <node TEXT="Our Services">
-        <node TEXT="Oven Cleaning" LINK="https://crystalmaids.com.au/our-services/oven-cleaning/" />
-        <node TEXT="House Window Cleaning" LINK="https://crystalmaids.com.au/our-services/house-window-cleaning/" />
-        <node TEXT="NDIS House Cleaning" LINK="https://crystalmaids.com.au/our-services/ndis-house-cleaning/" />
-        <node TEXT="Disinfectant Cleaning" LINK="https://crystalmaids.com.au/our-services/disinfectant-cleaning/" />
-        <node TEXT="Apartment Cleaning" LINK="https://crystalmaids.com.au/our-services/apartment-cleaning/" />
-        <node TEXT="End Of Lease Cleaning" LINK="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/" />
-        <node TEXT="House Cleaning" LINK="https://crystalmaids.com.au/our-services/house-cleaning/" />
-        <node TEXT="Deep Cleaning" LINK="https://crystalmaids.com.au/our-services/deep-cleaning/" />
-      </node>
-      <node TEXT="Meet Your Perfect Cleaning Team" />
-      <node TEXT="200% Satisfaction Guaranteed">
-        <node TEXT="Book Now (Button)" LINK="https://crystalmaids.com.au/booking-page/" />
-      </node>
-      <node TEXT="Customer Reviews" />
-      <node TEXT="Areas We Serve">
-        <node TEXT="Service Area Map" />
-        <node TEXT="List of Suburbs" />
-      </node>
-      <node TEXT="Frequently Asked Questions">
-        <node TEXT="Do you service my area?" />
-        <node TEXT="What is included in a general cleaning?" />
-        <node TEXT="How much will it cost?" />
-        <node TEXT="Do you bring your own cleaning equipment and supplies?" />
-        <node TEXT="Can I request special tasks or extras?" />
-        <node TEXT="What happens if something goes wrong during my appointment?" />
-      </node>
-      <node TEXT="Time for a Holiday">
-        <node TEXT="Book Now (Button)" LINK="https://crystalmaids.com.au/booking-page/" />
-      </node>
-    </node>
-    <node TEXT="Footer">
-      <node TEXT="Contact Information">
-        <node TEXT="Address" />
-        <node TEXT="Phone" LINK="tel:0385926690" />
-        <node TEXT="Email" LINK="mailto:support@crystalmaids.com.au" />
-      </node>
-      <node TEXT="Site Links">
-        <node TEXT="Home" LINK="https://crystalmaids.com.au/" />
-        <node TEXT="About Us" LINK="https://crystalmaids.com.au/about-us/" />
-        <node TEXT="Services" LINK="https://crystalmaids.com.au/our-services/" />
-        <node TEXT="Blog" LINK="https://crystalmaids.com.au/blog/" />
-        <node TEXT="Pricing" LINK="https://crystalmaids.com.au/pricing/" />
-        <node TEXT="Checklist" LINK="https://crystalmaids.com.au/checklist/" />
-        <node TEXT="Location" LINK="https://crystalmaids.com.au/location/" />
-        <node TEXT="Help" LINK="https://crystalmaids.com.au/help/" />
-      </node>
-      <node TEXT="Service Information">
-        <node TEXT="House Cleaning" LINK="https://crystalmaids.com.au/our-services/house-cleaning/" />
-        <node TEXT="Deep Cleaning" LINK="https://crystalmaids.com.au/our-services/deep-cleaning/" />
-        <node TEXT="End Of Lease Cleaning" LINK="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/" />
-        <node TEXT="Apartment Cleaning" LINK="https://crystalmaids.com.au/our-services/apartment-cleaning/" />
-        <node TEXT="Disinfectant Cleaning" LINK="https://crystalmaids.com.au/our-services/disinfectant-cleaning/" />
-        <node TEXT="NDIS House Cleaning" LINK="https://crystalmaids.com.au/our-services/ndis-house-cleaning/" />
-        <node TEXT="House Window Cleaning" LINK="https://crystalmaids.com.au/our-services/house-window-cleaning/" />
-        <node TEXT="Oven Cleaning" LINK="https://crystalmaids.com.au/our-services/oven-cleaning/" />
-      </node>
-      <node TEXT="Book Now" LINK="https://crystalmaids.com.au/booking-page/" />
-      <node TEXT="Login" LINK="https://crystalmaids.launch27.com/login" />
-      <node TEXT="Terms and Conditions" LINK="https://crystalmaids.com.au/terms-and-conditions/" />
-      <node TEXT="Privacy Policy" LINK="https://crystalmaids.com.au/privacy-policy/" />
-    </node>
-  </node>
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1764225680724" ID="ID_1072036810" MODIFIED="1764225685713" TEXT="House Cleaning Services Melbourne | Professional Cleaners | Crystal Maids">
+<node CREATED="1764225680724" FOLDED="true" ID="ID_198363297" MODIFIED="1764225685713" POSITION="right" TEXT="Home Page">
+<node CREATED="1764225680724" FOLDED="true" ID="ID_347377518" MODIFIED="1764225685712" TEXT="Header">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Logo"/>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1565063182" MODIFIED="1764225685712" TEXT="Navigation">
+<node CREATED="1764225680724" LINK="https://crystalmaids.com.au/" MODIFIED="1764225680724" TEXT="Home"/>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_107711915" LINK="https://crystalmaids.com.au/about-us/" MODIFIED="1764225685708" TEXT="About Us">
+<node CREATED="1764225680724" FOLDED="true" ID="ID_945602502" MODIFIED="1764225685707" TEXT="About Us Introduction">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Crystal Maids was founded to provide premium cleaning for homes in Melbourne, focusing on hassle-free quality and customer satisfaction."/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Why Us? Genuine care, attention to client needs, and extra mile services set us apart."/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1439488664" MODIFIED="1764225685708" TEXT="Our Team Approach">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="We understand that there is more to cleaning than just cleaning."/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Emphasis on trust, only hiring top professionals, offering competitive rates and great incentives."/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_222679773" MODIFIED="1764225685708" TEXT="Onboarding Process">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Application"/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Questionnaire test"/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Phone Screening"/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Face to Face interview"/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Trial clean"/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Police and background check"/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Professional reference check"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1672329493" MODIFIED="1764225685708" TEXT="Pet Friendly Message">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Hi there, my name is Nala - The team loves animals and is 100% pet friendly!"/>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_854028193" MODIFIED="1764225685708" TEXT="Book Now">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="https://crystalmaids.com.au/booking-page/"/>
+</node>
+</node>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1037075822" LINK="https://crystalmaids.com.au/our-services/" MODIFIED="1764225685709" TEXT="Services">
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1674764274" MODIFIED="1764225685708" TEXT="Intro   Value Proposition">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Tired after a long day at work? Don&#x2019;t stress, leave it to us, it&#x2019;s what we do best!"/>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_941197282" MODIFIED="1764225685708" TEXT="View All Our Cleaning Services">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="https://crystalmaids.com.au/our-services/#view-services"/>
+</node>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1956940666" MODIFIED="1764225685708" TEXT="Our Services Overview">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="We cover a wide range of house cleaning services and household chores"/>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1516767488" MODIFIED="1764225685708" TEXT="Oven Cleaning">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="https://crystalmaids.com.au/our-services/oven-cleaning/"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_430717181" MODIFIED="1764225685708" TEXT="House Window Cleaning">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="https://crystalmaids.com.au/our-services/house-window-cleaning/"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_969454790" MODIFIED="1764225685708" TEXT="NDIS House Cleaning">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="https://crystalmaids.com.au/our-services/ndis-house-cleaning/"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1672272827" MODIFIED="1764225685708" TEXT="Disinfectant Cleaning">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="https://crystalmaids.com.au/our-services/disinfectant-cleaning/"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_915600784" MODIFIED="1764225685708" TEXT="Apartment Cleaning">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="https://crystalmaids.com.au/our-services/apartment-cleaning/"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1555554481" MODIFIED="1764225685708" TEXT="End Of Lease Cleaning">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1760003390" MODIFIED="1764225685708" TEXT="House Cleaning">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="https://crystalmaids.com.au/our-services/house-cleaning/"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1504749296" MODIFIED="1764225685708" TEXT="Deep Cleaning">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="https://crystalmaids.com.au/our-services/deep-cleaning/"/>
+</node>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_801142291" MODIFIED="1764225685709" TEXT="Satisfaction Guarantee">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="200% Satisfaction Guaranteed - We&#x2019;ll re-clean or refund if you&#x2019;re not happy"/>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1492824272" MODIFIED="1764225685708" TEXT="Book Now">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="https://crystalmaids.com.au/booking-page/"/>
+</node>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_563478911" MODIFIED="1764225685709" TEXT="Reviews">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Customer feedback and testimonials"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1029375931" MODIFIED="1764225685709" TEXT="Areas We Serve">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Map of service areas in Melbourne and nearby suburbs"/>
+</node>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_884501819" LINK="https://crystalmaids.com.au/pricing/" MODIFIED="1764225685709" TEXT="Pricing">
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1506689268" MODIFIED="1764225685709" TEXT="Get a quote in just 60 seconds!">
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1137883166" MODIFIED="1764225685709" TEXT="Quote Request Form">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Name"/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Email"/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Mobile Number"/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="View Price"/>
+</node>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="200% Satisfaction guaranteed"/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Police Checked"/>
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Fully Insured"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1748555157" MODIFIED="1764225685709" TEXT="Exceptional Cleaning And Flexible Pricing">
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1570384364" MODIFIED="1764225685709" TEXT="Hourly">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Flexible cleaning by time and area"/>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1668764128" MODIFIED="1764225685709" TEXT="Get a Quote">
+<node CREATED="1764225680724" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680724" TEXT="Get a Quote"/>
+</node>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1278419590" MODIFIED="1764225685709" TEXT="Flat Rate">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Clean by bedrooms/studies and service checklist"/>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_882000489" MODIFIED="1764225685709" TEXT="Get a Quote">
+<node CREATED="1764225680724" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680724" TEXT="Get a Quote"/>
+</node>
+</node>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_497383186" MODIFIED="1764225685709" TEXT="Loyalty Discounts">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="5% Monthly Off, 10% Weekly Off, 10% Fortnightly Off"/>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_439413237" MODIFIED="1764225685709" TEXT="Get a Quote">
+<node CREATED="1764225680724" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680724" TEXT="Get a Quote"/>
+</node>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1582137986" MODIFIED="1764225685709" TEXT="What you get">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Service inclusions explained"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1295559077" MODIFIED="1764225685709" TEXT="Customer Reviews">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Sample customer testimonial"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1525481080" MODIFIED="1764225685709" TEXT="200% Satisfaction Guaranteed">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Double satisfaction or re-clean/refund"/>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_211763179" MODIFIED="1764225685709" TEXT="Book Now">
+<node CREATED="1764225680724" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680724" TEXT="Book Now"/>
+</node>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_893243463" MODIFIED="1764225685709" TEXT="Crystal Clear Policy">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Full home cleaning policy and extra hour promise"/>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_609471984" MODIFIED="1764225685709" TEXT="Book Now">
+<node CREATED="1764225680724" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680724" TEXT="Book Now"/>
+</node>
+</node>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_706149103" LINK="https://crystalmaids.com.au/checklist/" MODIFIED="1764225685711" TEXT="Checklist">
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1113751326" MODIFIED="1764225685710" TEXT="Crystal Maids Checklist Overview">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Service checklists for kitchen, bathrooms, common areas, bedrooms, and more"/>
+</node>
+<node CREATED="1764225680724" FOLDED="true" ID="ID_1264941043" MODIFIED="1764225685710" TEXT="Kitchen Checklist">
+<node CREATED="1764225680724" MODIFIED="1764225680724" TEXT="Main kitchen cleaning steps, including benchtops, sinks, rubbish bins"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1868043249" MODIFIED="1764225685710" TEXT="Bathrooms Checklist">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Includes mirrors, showers, fixtures, and floor cleaning"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_810050016" MODIFIED="1764225685710" TEXT="Common Areas Checklist">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="General cleaning including surfaces, mirrors, floors, and bins"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1940201995" MODIFIED="1764225685710" TEXT="Bedrooms Checklist">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Checklist tasks focused on bedroom areas and fabrics"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1689178241" MODIFIED="1764225685710" TEXT="Deep Cleaning">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Extra detail offered in bathrooms, kitchen, windows, skirting, blinds"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1153491604" MODIFIED="1764225685710" TEXT="Deep House Cleaning Service in Melbourne">
+<node CREATED="1764225680725" FOLDED="true" ID="ID_594864737" MODIFIED="1764225685710" TEXT="Key Benefits Summary">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="200% Satisfaction guaranteed"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Police Checked"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Fully Insured"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_411284383" MODIFIED="1764225685710" TEXT="Quick Quote Form">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Name*"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Email*"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Mobile Number*"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="View Price"/>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_628676904" MODIFIED="1764225685710" TEXT="Professional House Deep Cleaning Service">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Service Overview and Key Promises"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1508943998" MODIFIED="1764225685710" TEXT="Book Now Button">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680725" TEXT="Book Now"/>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1122139960" MODIFIED="1764225685710" TEXT="Here #39;s what you get!">
+<node CREATED="1764225680725" FOLDED="true" ID="ID_654877434" MODIFIED="1764225685710" TEXT="Service Selection Tabs">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/deep-cleaning/#tab-1" MODIFIED="1764225680725" TEXT="General Service"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/deep-cleaning/#tab-2" MODIFIED="1764225680725" TEXT="Deep Clean"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/deep-cleaning/#tab-3" MODIFIED="1764225680725" TEXT="Move In / Move Out"/>
+</node>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Kitchen Cleaning"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Bedroom   Living Room"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Bathroom Cleaning"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Common Areas"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Additional Services"/>
+</node>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Frequently Asked Questions"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Customer Reviews"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_289315320" MODIFIED="1764225685710" TEXT="Satisfaction Guarantee and Re-clean Policy">
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1668480202" MODIFIED="1764225685710" TEXT="Book Now Button">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680725" TEXT="Book Now"/>
+</node>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_678894504" MODIFIED="1764225685711" TEXT="End of Lease Cleaning">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Specific move-out tasks: inside cabinets, oven, ceiling fans"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_706264546" MODIFIED="1764225685710" TEXT="End Of Lease Cleaning Service in Melbourne">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Intro: Premium service to save your time and energy"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_395046843" MODIFIED="1764225685710" TEXT="Highlights">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="200% Satisfaction guaranteed"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Police Checked"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Fully Insured"/>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_112372848" MODIFIED="1764225685710" TEXT="Quote Form">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Name*"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Email*"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Mobile Number*"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="View Price"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1931710564" MODIFIED="1764225685710" TEXT="Service Overview and Booking">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="What is end of lease house cleaning and why choose us"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1538366552" MODIFIED="1764225685710" TEXT="Book Now">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680725" TEXT="https://crystalmaids.com.au/booking-page/"/>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1440558352" MODIFIED="1764225685711" TEXT="Here&apos;s what you get!">
+<node CREATED="1764225680725" FOLDED="true" ID="ID_496262443" MODIFIED="1764225685711" TEXT="Select Services">
+<node CREATED="1764225680725" FOLDED="true" ID="ID_545550605" MODIFIED="1764225685710" TEXT="General Service">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/#tab-1" MODIFIED="1764225680725" TEXT="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/#tab-1"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_45301043" MODIFIED="1764225685710" TEXT="Deep Clean">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/#tab-2" MODIFIED="1764225680725" TEXT="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/#tab-2"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_402835683" MODIFIED="1764225685711" TEXT="Move In / Move Out">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/#tab-3" MODIFIED="1764225680725" TEXT="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/#tab-3"/>
+</node>
+</node>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Kitchen Cleaning: Summary of tasks covered"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Bedroom   Living Room: Key inclusions"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Bathroom Cleaning: Key inclusions"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Common Areas: Main tasks and options"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Additional Services: What extras are available"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1374962285" MODIFIED="1764225685711" TEXT="FAQs">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Bond Guarantee answered"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Carpet steam cleaning policy"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Inclusions in end of lease clean"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1183619571" MODIFIED="1764225685711" TEXT="Customer Reviews">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Testimonial summary and experience highlights"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_622989211" MODIFIED="1764225685711" TEXT="Satisfaction Guarantee">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="200% Satisfaction policy and re-clean/refund promise"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_704354326" MODIFIED="1764225685711" TEXT="Book Now">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680725" TEXT="https://crystalmaids.com.au/booking-page/"/>
+</node>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1312507940" MODIFIED="1764225685711" TEXT="Additional Services">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Oven, fridge, interior windows, balcony, and more"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_193895336" MODIFIED="1764225685711" TEXT="Book Now">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680725" TEXT="Booking Page"/>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1853073189" LINK="https://crystalmaids.com.au/location/" MODIFIED="1764225685711" TEXT="Location">
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1363301978" MODIFIED="1764225685711" TEXT="Our Locations Overview">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Crystal Maids is among the highest rated cleaning companies in Melbourne. We serve most suburbs within a 30-40km radius of the city."/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1325322096" MODIFIED="1764225685711" TEXT="Service Areas">
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1876376520" MODIFIED="1764225685711" TEXT="Eastern Suburbs">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/eastern-suburbs-house-cleaning/" MODIFIED="1764225680725" TEXT="View Service Area"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1615423285" MODIFIED="1764225685711" TEXT="Brighton East">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/brighton-east-house-cleaning/" MODIFIED="1764225680725" TEXT="View Service Area"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1907260040" MODIFIED="1764225685711" TEXT="Brighton">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/brighton-house-cleaning/" MODIFIED="1764225680725" TEXT="View Service Area"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1859354670" MODIFIED="1764225685711" TEXT="Hawthorn">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/hawthorn-house-cleaning/" MODIFIED="1764225680725" TEXT="View Service Area"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1676745048" MODIFIED="1764225685711" TEXT="Malvern East">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/malvern-east-house-cleaning/" MODIFIED="1764225680725" TEXT="View Service Area"/>
+</node>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1372519080" LINK="https://crystalmaids.com.au/career/" MODIFIED="1764225685712" TEXT="Careers">
+<node CREATED="1764225680725" FOLDED="true" ID="ID_631736553" MODIFIED="1764225685711" TEXT="Join The Team and get more Cleaning Jobs in Melbourne">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Summary: Invitation to join Crystal Maids for flexible cleaning jobs in Melbourne"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1498564926" MODIFIED="1764225685711" TEXT="Apply Now">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/job-application/" MODIFIED="1764225680725" TEXT="Apply Now"/>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1473712585" MODIFIED="1764225685712" TEXT="How Does It Work?">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Summary: Explains the simple steps to join and start working as a cleaner"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_375314922" MODIFIED="1764225685712" TEXT="Steps">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="1. Apply: Online form and interview"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="2. Activate your account: Attend an interview"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="3. Pick up jobs: Receive job invitations and accept as desired"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="4. Get paid weekly: Payment deposited into your bank"/>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1565950052" MODIFIED="1764225685712" TEXT="Perks   Benefits">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Summary: Outlines benefits such as competitive rates, flexible schedule, local jobs, support, and business growth"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_285585275" MODIFIED="1764225685712" TEXT="Nala would love for you to join our team!">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Summary: Friendly call-to-action encouraging job applications"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_63625814" MODIFIED="1764225685712" TEXT="Apply Now">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/job-application/" MODIFIED="1764225680725" TEXT="Apply Now"/>
+</node>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_971588929" LINK="https://crystalmaids.com.au/help/" MODIFIED="1764225685712" TEXT="Help">
+<node CREATED="1764225680725" FOLDED="true" ID="ID_868689527" MODIFIED="1764225685712" TEXT="Frequently Asked Questions">
+<node CREATED="1764225680725" FOLDED="true" ID="ID_701417824" MODIFIED="1764225685712" TEXT="Service Area   Inclusions">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Do you service my area?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="What is included in a general cleaning?"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_100313779" MODIFIED="1764225685712" TEXT="Cost, Scheduling   Payment">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="How much will it cost?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="How do I reset my password?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="How do I book my first appointment?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Can I apply a coupon to an existing appointment?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Do you have discounts for regular clients?"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1176700567" MODIFIED="1764225685712" TEXT="Supplies   Requests">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Do you bring your own cleaning equipment and supplies?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Can I request special tasks or extras?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Can you use green products on request?"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1215252291" MODIFIED="1764225685712" TEXT="Trust   Safety">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Can I trust my cleaning professional?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="What happens if something goes wrong during my appointment?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Is it okay that I have pets in the home?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Do I need to be home during the service?"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1937318383" MODIFIED="1764225685712" TEXT="Guarantee   Policy">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="What is your 200% satisfaction guarantee policy?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Does end of lease cleaning come with a Bond Guarantee?"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1517786104" MODIFIED="1764225685712" TEXT="Cleaning Types">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Do you do carpet steam cleaning?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="What is included in an end of lease clean?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="What is the difference between a General clean and a Deep clean?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="What is the difference with disinfectant cleaning?"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_310401616" MODIFIED="1764225685712" TEXT="Other Services   Requests">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Do you clean balconies?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Do you do laundry?"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_838842998" MODIFIED="1764225685712" TEXT="Contact">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="03 8592 6690"/>
+</node>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680725" TEXT="Book Now Button"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1913025305" MODIFIED="1764225685713" TEXT="Hero Section">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="#1 House Cleaning Company Melbourne"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Description"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_472877457" MODIFIED="1764225685712" TEXT="Trust Badges">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="200% Satisfaction guaranteed"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Police Checked"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Fully Insured"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_730155732" MODIFIED="1764225685713" TEXT="Quote Form">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Name (text field)"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Email (text field)"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Mobile Number (text field)"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="View Price (submit button)"/>
+</node>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1574820673" MODIFIED="1764225685713" TEXT="How Crystal Maids Works">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Quote"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Clean"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Pay"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Review"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1341467512" MODIFIED="1764225685713" TEXT="About Us Preview">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Description"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680725" TEXT="Book Now Button"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1362210194" MODIFIED="1764225685713" TEXT="Our Services">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/oven-cleaning/" MODIFIED="1764225680725" TEXT="Oven Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/house-window-cleaning/" MODIFIED="1764225680725" TEXT="House Window Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/ndis-house-cleaning/" MODIFIED="1764225680725" TEXT="NDIS House Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/disinfectant-cleaning/" MODIFIED="1764225680725" TEXT="Disinfectant Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/apartment-cleaning/" MODIFIED="1764225680725" TEXT="Apartment Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/" MODIFIED="1764225680725" TEXT="End Of Lease Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/house-cleaning/" MODIFIED="1764225680725" TEXT="House Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/deep-cleaning/" MODIFIED="1764225680725" TEXT="Deep Cleaning"/>
+</node>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Meet Your Perfect Cleaning Team"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_954179581" MODIFIED="1764225685713" TEXT="200% Satisfaction Guaranteed">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680725" TEXT="Book Now Button"/>
+</node>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Customer Reviews"/>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_474630532" MODIFIED="1764225685713" TEXT="Areas We Serve">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Service Area Map"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="List of Suburbs"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1659065599" MODIFIED="1764225685713" TEXT="Frequently Asked Questions">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Do you service my area?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="What is included in a general cleaning?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="How much will it cost?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Do you bring your own cleaning equipment and supplies?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Can I request special tasks or extras?"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="What happens if something goes wrong during my appointment?"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1513684501" MODIFIED="1764225685713" TEXT="Time for a Holiday">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680725" TEXT="Book Now Button"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1696179871" MODIFIED="1764225685713" TEXT="Footer">
+<node CREATED="1764225680725" FOLDED="true" ID="ID_325282201" MODIFIED="1764225685713" TEXT="Contact Information">
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Address"/>
+<node CREATED="1764225680725" MODIFIED="1764225680725" TEXT="Phone: 03 8592 6690"/>
+<node CREATED="1764225680725" LINK="mailto:support@crystalmaids.com.au" MODIFIED="1764225680725" TEXT="Email: support@crystalmaids.com.au"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_1656253370" MODIFIED="1764225685713" TEXT="Site Links">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/" MODIFIED="1764225680725" TEXT="Home"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/about-us/" MODIFIED="1764225680725" TEXT="About Us"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/" MODIFIED="1764225680725" TEXT="Services"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/blog/" MODIFIED="1764225680725" TEXT="Blog"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/pricing/" MODIFIED="1764225680725" TEXT="Pricing"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/checklist/" MODIFIED="1764225680725" TEXT="Checklist"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/location/" MODIFIED="1764225680725" TEXT="Location"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/help/" MODIFIED="1764225680725" TEXT="Help"/>
+</node>
+<node CREATED="1764225680725" FOLDED="true" ID="ID_447357284" MODIFIED="1764225685713" TEXT="Service Information">
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/house-cleaning/" MODIFIED="1764225680725" TEXT="House Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/deep-cleaning/" MODIFIED="1764225680725" TEXT="Deep Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/end-of-lease-cleaning/" MODIFIED="1764225680725" TEXT="End Of Lease Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/apartment-cleaning/" MODIFIED="1764225680725" TEXT="Apartment Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/disinfectant-cleaning/" MODIFIED="1764225680725" TEXT="Disinfectant Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/ndis-house-cleaning/" MODIFIED="1764225680725" TEXT="NDIS House Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/house-window-cleaning/" MODIFIED="1764225680725" TEXT="House Window Cleaning"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/our-services/oven-cleaning/" MODIFIED="1764225680725" TEXT="Oven Cleaning"/>
+</node>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/booking-page/" MODIFIED="1764225680725" TEXT="Book Now Button"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.launch27.com/login" MODIFIED="1764225680725" TEXT="Login Button"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/terms-and-conditions/" MODIFIED="1764225680725" TEXT="Terms and Conditions"/>
+<node CREATED="1764225680725" LINK="https://crystalmaids.com.au/privacy-policy/" MODIFIED="1764225680725" TEXT="Privacy Policy"/>
+</node>
+</node>
+</node>
 </map>
