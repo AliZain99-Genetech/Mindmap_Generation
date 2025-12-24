@@ -1,5 +1,24 @@
+// document.addEventListener('DOMContentLoaded', (event) => {
+//     // const socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port);
+//     const socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port, {
+//     transports: ['websocket', 'polling']
+// });
+//     socket.on('connect', function() {
+//         console.log('Socket.IO connected');
+//     });
+
+//     socket.on('log', function(msg) {
+//         const logs = document.getElementById('logs');
+//         logs.textContent += msg.data + '\n';
+//         // Scroll to the bottom of the log container
+//         logs.scrollTop = logs.scrollHeight;
+//     });
+// });
+
 document.addEventListener('DOMContentLoaded', (event) => {
-    const socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port);
+    const socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port, {
+        transports: ['websocket', 'polling']
+    });
 
     socket.on('connect', function() {
         console.log('Socket.IO connected');
@@ -8,8 +27,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
     socket.on('log', function(msg) {
         const logs = document.getElementById('logs');
         logs.textContent += msg.data + '\n';
-        // Scroll to the bottom of the log container
         logs.scrollTop = logs.scrollHeight;
+    });
+
+    socket.on('connect_error', (err) => {
+        console.error('Connection Error:', err);
+    });
+
+    socket.on('disconnect', () => {
+        console.warn('Socket disconnected');
     });
 });
 

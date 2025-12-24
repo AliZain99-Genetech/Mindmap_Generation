@@ -1,15 +1,29 @@
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
 .env
-mind_map_webapp
-340bpriceguide
-340bpriceguide.net
-dayzee
-lionsandtigers
-nutriwest
-__pycache__
-340bpriceguide.net.zip
-app.log
-auth_state.json
-lionsandtigers.com
-lionsandtigers.com.zip
-teamupventures
-teamupventures.com.zip
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+altitudeocr/
+340bpriceguide/
+attunementwellness/
+com/
+comp360software/
+dayzee/
+dmaid/
+genetechsolutions/
+genetechz/
+kidneycareconsultants/
+lacountynephrology/
+lionsandtigers/
+nutriwest/
+polesportorg/
+generated_mindmaps/
